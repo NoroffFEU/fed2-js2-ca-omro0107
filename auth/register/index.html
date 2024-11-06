@@ -11,7 +11,7 @@
   <body>
     <h1>Register</h1>
 
-    <form name="register">
+    <form name="register-form">
       <div>
         <label for="name">Name</label>
         <input
@@ -47,9 +47,10 @@
           minlength="8"
         />
       </div>
-
+      <p id="userSuccess" style="color: green;"> </p>
+      <p id="userError" style="color: red;"> </p>
       <a href="/auth/login/">Login</a>
-      <button>Register</button>
+      <button type="submit">Register</button>
     </form>
   </body>
 </html>
